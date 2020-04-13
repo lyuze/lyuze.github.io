@@ -11,16 +11,16 @@
 
 1. [公众号—JavaGuide](#公众号) ： 最新原创文章+免费领取本文档配套的《Java面试突击》以及Java工程师必备学习资源）
 
-Github用户如果访问速度缓慢的话，可以转移到[码云](https://gitee.com/SnailClimb/JavaGuide )查看，或者[在线阅读](https://snailclimb.gitee.io/javaguide )。
+[在线阅读](https://lyuze.github.io/ )。
 
 <p align="center">
-<a href="https://github.com/Snailclimb/JavaGuide" target="_blank">
+<a href="https://github.com/lyuze/lyuze.github.io" target="_blank">
 	<img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-3/logo - 副本.png" width=""/>
 </a>
 </p>
 
 <p align="center">
-  <a href="https://snailclimb.gitee.io/javaguide"><img src="https://img.shields.io/badge/阅读-read-brightgreen.svg" alt="阅读"></a>
+  <a href="https://github.com/lyuze/lyuze.github.io"><img src="https://img.shields.io/badge/阅读-read-brightgreen.svg" alt="阅读"></a>
   <a href="#公众号"><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-JavaGuide-lightgrey.svg" alt="公众号"></a>
   <a href="#公众号"><img src="https://img.shields.io/badge/PDF-Java面试突击-important.svg" alt="公众号"></a>
   <a href="#投稿"><img src="https://img.shields.io/badge/support-投稿-critical.svg" alt="投稿"></a>
@@ -424,64 +424,6 @@ Markdown 格式参考：[Github Markdown格式](https://guides.github.com/featur
 2. 很多知识点我可能没有涉及到，所以你可以对其他知识点进行补充。
 3. 现有的知识点难免存在不完善或者错误，所以你可以对已有知识点进行修改/补充。
 
-### 联系我
-
-![个人微信](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-7/wechat3.jpeg)
-
-### Contributor
-
-下面是笔主收集的一些对本仓库提过有价值的pr或者issue的朋友，人数较多，如果你也对本仓库提过不错的pr或者issue的话，你可以加我的微信与我联系。下面的排名不分先后！
-
-<a href="https://github.com/fanofxiaofeng">
-    <img src="https://avatars0.githubusercontent.com/u/3983683?s=460&v=4" width="45px">
-</a>
-<a href="https://github.com/LiWenGu">
-    <img src="https://avatars0.githubusercontent.com/u/15909210?s=460&v=4" width="45px">
-</a>
-<a href="https://github.com/fanchenggang">  
-    <img src="https://avatars2.githubusercontent.com/u/8225921?s=460&v=4" width="45px">
-</a>
-<a href="https://github.com/Rustin-Liu">  
-    <img src="https://avatars2.githubusercontent.com/u/29879298?s=400&v=4" width="45px">
-</a>
-
-<a href="https://github.com/ipofss">
-    <img src="https://avatars1.githubusercontent.com/u/5917359?s=460&v=4" width="45px"></a>
-<a href="https://github.com/Gene1994">
-    <img src="https://avatars3.githubusercontent.com/u/24930369?s=460&v=4" width="45px">
-</a>
-<a href="https://github.com/spikesp">
-    <img src="https://avatars0.githubusercontent.com/u/12581996?s=460&v=4" width="45px"></a>
-<a href="https://github.com/illusorycloud">
-    <img src="https://avatars3.githubusercontent.com/u/31980412?s=460&v=4" width="45px">
-</a>
-<a href="https://github.com/kinglaw1204">
-    <img src="https://avatars1.githubusercontent.com/u/20039931?s=460&v=4" width="45px">
-</a>
-<a href="https://github.com/jun1st">
-    <img src="https://avatars2.githubusercontent.com/u/14312378?s=460&v=4" width="45px">
-</a>"
-<a href="https://github.com/fantasygg">  
-    <img src="https://avatars3.githubusercontent.com/u/13445354?s=460&v=4" width="45px">
-</a>
-<a href="https://github.com/debugjoker">  
-    <img src="https://avatars3.githubusercontent.com/u/26218005?s=460&v=4" width="45px">
-</a>
-<a href="https://github.com/zhyank">  
-    <img src="https://avatars0.githubusercontent.com/u/17696240?s=460&v=4" width="45px">
-</a>
-<a href="https://github.com/Goose9527">  
-    <img src="https://avatars2.githubusercontent.com/u/43314997?s=460&v=4" width="45px">
-</a>
-<a href="https://github.com/yuechuanx">  
-    <img src="https://avatars3.githubusercontent.com/u/19339293?s=460&v=4" width="45px">
-</a>
-<a href="https://github.com/cnLGMing">  
-    <img src="https://avatars2.githubusercontent.com/u/15910705?s=460&v=4" width="45px">
-</a>
-<a href="https://github.com/fanchenggang">  
-    <img src="https://avatars0.githubusercontent.com/u/20358122?s=460&v=4" width="45px">
-</a>
 
 ### 公众号
 
