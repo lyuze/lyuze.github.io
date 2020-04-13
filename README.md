@@ -19,14 +19,6 @@
 </a>
 </p>
 
-<p hidden align="center">
-  <a href="https://github.com/lyuze/lyuze.github.io"><img src="https://img.shields.io/badge/阅读-read-brightgreen.svg" alt="阅读"></a>
-  <a href="#公众号"><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-JavaGuide-lightgrey.svg" alt="公众号"></a>
-  <a href="#公众号"><img src="https://img.shields.io/badge/PDF-Java面试突击-important.svg" alt="公众号"></a>
-  <a href="#投稿"><img src="https://img.shields.io/badge/support-投稿-critical.svg" alt="投稿"></a>
-  <a href="https://xiaozhuanlan.com/javainterview?rel=javaguide"><img src="https://img.shields.io/badge/Java-面试指南-important" alt="投稿"></a>
-</p>
-
 <h3 align="center">Sponsor</h3>
 <p align="center">
 <a  href="https://mp.weixin.qq.com/s/li9_YXNVxan6Qgt3Q9FYqA">
@@ -424,17 +416,3 @@ Markdown 格式参考：[Github Markdown格式](https://guides.github.com/featur
 2. 很多知识点我可能没有涉及到，所以你可以对其他知识点进行补充。
 3. 现有的知识点难免存在不完善或者错误，所以你可以对已有知识点进行修改/补充。
 
-
-<p hidden align="center">
-### 公众号
-
-如果大家想要实时关注我更新的文章以及分享的干货的话，可以关注我的公众号。
-
-**《Java面试突击》:** 由本文档衍生的专为面试而生的《Java面试突击》V2.0 PDF 版本[公众号](#公众号)后台回复 **"Java面试突击"** 即可免费领取！
-
-**Java工程师必备学习资源:** 一些Java工程师常用学习资源公众号后台回复关键字 **“1”** 即可免费无套路获取。 
-
-![我的公众号](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-6/167598cd2e17b8ec.png)
-
-
-</p>

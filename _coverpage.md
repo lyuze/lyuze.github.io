@@ -4,7 +4,6 @@
 
 
 <h1 align="center">Java 学习/面试指南</h1>
-<h6 hidden align="center">https://shimo.im/docs/MuiACIg1HlYfVxrj/</h6>
 
 [常用资源](http://39.107.136.211/)
 [GitHub](<https://github.com/lyuze/lyuze.github.io>)
