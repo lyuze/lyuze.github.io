@@ -19,7 +19,7 @@
 </a>
 </p>
 
-<p align="center">
+<p hidden align="center">
   <a href="https://github.com/lyuze/lyuze.github.io"><img src="https://img.shields.io/badge/阅读-read-brightgreen.svg" alt="阅读"></a>
   <a href="#公众号"><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-JavaGuide-lightgrey.svg" alt="公众号"></a>
   <a href="#公众号"><img src="https://img.shields.io/badge/PDF-Java面试突击-important.svg" alt="公众号"></a>
@@ -425,6 +425,7 @@ Markdown 格式参考：[Github Markdown格式](https://guides.github.com/featur
 3. 现有的知识点难免存在不完善或者错误，所以你可以对已有知识点进行修改/补充。
 
 
+<p hidden align="center">
 ### 公众号
 
 如果大家想要实时关注我更新的文章以及分享的干货的话，可以关注我的公众号。
@@ -436,3 +437,4 @@ Markdown 格式参考：[Github Markdown格式](https://guides.github.com/featur
 ![我的公众号](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-6/167598cd2e17b8ec.png)
 
 
+</p>
