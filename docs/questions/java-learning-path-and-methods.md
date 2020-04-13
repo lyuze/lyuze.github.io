@@ -2,7 +2,7 @@
 
 **下面的学习路线以及方法是笔主根据个人学习经历总结改进后得出，我相信照着这条学习路线来你的学习效率会非常高。**
 
-学习某个知识点的过程中如果不知道看什么书的话，可以查看这篇文章 ：[Java 学习必备书籍推荐终极版！](https://github.com/Snailclimb/JavaGuide/blob/master/docs/data/java-recommended-books.md)。
+学习某个知识点的过程中如果不知道看什么书的话，可以查看这篇文章 ：[Java 学习必备书籍推荐终极版！](https://github.com/lyuze/lyuze.github.io/blob/master/docs/data/java-recommended-books.md)。
 
 另外，很重要的一点：**建议使用 Intellij IDEA 进行编码，可以单独抽点时间学习 Intellij IDEA 的使用。**
 
@@ -93,8 +93,8 @@
 
 1. **IDEA**：熟悉基本操作以及常用快捷。
 2. **Maven** ：建议学习常用框架之前可以提前花半天时间学习一下**Maven**的使用。（到处找 Jar 包，下载 Jar 包是真的麻烦费事，使用 Maven 可以为你省很多事情）。
-3. **Git** ：基本的 Git 技能也是必备的，试着在学习的过程中将自己的代码托管在 Github 上。（[Git 入门](https://github.com/Snailclimb/JavaGuide/blob/master/docs/tools/Git.md)）
-4. **Docker** ：学着用 Docker 安装学习中需要用到的软件比如 MySQL ,这样方便很多，可以为你节省不少时间。（[Docker 入门](https://github.com/Snailclimb/JavaGuide/blob/master/docs/tools/Docker.md)）
+3. **Git** ：基本的 Git 技能也是必备的，试着在学习的过程中将自己的代码托管在 Github 上。（[Git 入门](https://github.com/lyuze/lyuze.github.io/blob/master/docs/tools/Git.md)）
+4. **Docker** ：学着用 Docker 安装学习中需要用到的软件比如 MySQL ,这样方便很多，可以为你节省不少时间。（[Docker 入门](https://github.com/lyuze/lyuze.github.io/blob/master/docs/tools/Docker.md)）
 
 > 利用常用框架可以极大程度简化我们的开发工作。学习完了常用工具之后，我们就可以开始常用框架的学习啦！
 
@@ -106,7 +106,7 @@
 
 **Spring 真的很重要！** 一定要搞懂 AOP 和 IOC 这两个概念。Spring 中 bean 的作用域与生命周期、SpringMVC 工作原理详解等等知识点都是非常重要的，一定要搞懂。
 
-推荐看文档+视频结合的方式，中途配合实战来学习，学习期间可以多看看 JavaGuide 对于[常用框架的总结](https://github.com/Snailclimb/JavaGuide#%E5%B8%B8%E7%94%A8%E6%A1%86%E6%9E%B6 "常用框架的总结")。
+推荐看文档+视频结合的方式，中途配合实战来学习，学习期间可以多看看 JavaGuide 对于[常用框架的总结](https://github.com/lyuze/lyuze.github.io#%E5%B8%B8%E7%94%A8%E6%A1%86%E6%9E%B6 "常用框架的总结")。
 
 **另外，都 2019 年了，咱千万不要再学 JSP 了好不？**
 
@@ -172,7 +172,7 @@
 
 ### step 10:深入学习
 
-可以再回来看一下多线程方面的知识，还可以利用业余时间学习一下 **[NIO](https://github.com/Snailclimb/JavaGuide#io "NIO")** 和 **Netty** ，这样简历上也可以多点东西。如果想去大厂，**[JVM](https://github.com/Snailclimb/JavaGuide#jvm "JVM")** 的一些知识也是必学的（**Java 内存区域、虚拟机垃圾算法、虚拟垃圾收集器、JVM 内存管理**）推荐《深入理解 Java 虚拟机：JVM 高级特性与最佳实践（最新第二版》和《实战 Java 虚拟机》，如果嫌看书麻烦的话，你也可以看我整理的文档。
+可以再回来看一下多线程方面的知识，还可以利用业余时间学习一下 **[NIO](https://github.com/lyuze/lyuze.github.io#io "NIO")** 和 **Netty** ，这样简历上也可以多点东西。如果想去大厂，**[JVM](https://github.com/lyuze/lyuze.github.io#jvm "JVM")** 的一些知识也是必学的（**Java 内存区域、虚拟机垃圾算法、虚拟垃圾收集器、JVM 内存管理**）推荐《深入理解 Java 虚拟机：JVM 高级特性与最佳实践（最新第二版》和《实战 Java 虚拟机》，如果嫌看书麻烦的话，你也可以看我整理的文档。
 
 另外，现在微服务特别火，很多公司在面试也明确要求需要微服务方面的知识。如果有精力的话可以去学一下 SpringCloud 生态系统微服务方面的东西。
 
@@ -229,7 +229,7 @@ Spring Cloud Alibaba也是很值得学习的：
 
 **一定要学会分配自己时间，要学的东西很多，真的很多，搞清楚哪些东西是重点，哪些东西仅仅了解就够了。一定不要把精力都花在了学各种框架上，算法和数据结构真的很重要！**
 
-另外，**学习的过程中有一个可以参考的文档很重要，非常有助于自己的学习**。我当初弄 JavaGuide： https://github.com/Snailclimb/JavaGuide 的很大一部分目的就是因为这个。**客观来说，相比于博客，JavaGuide 里面的内容因为更多人的参与变得更加准确和完善。**
+另外，**学习的过程中有一个可以参考的文档很重要，非常有助于自己的学习**。我当初弄 JavaGuide： https://github.com/lyuze/lyuze.github.io 的很大一部分目的就是因为这个。**客观来说，相比于博客，JavaGuide 里面的内容因为更多人的参与变得更加准确和完善。**
 
 ### 公众号
 

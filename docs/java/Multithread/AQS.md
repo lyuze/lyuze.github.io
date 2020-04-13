@@ -316,7 +316,7 @@ Semaphore 有两种模式，公平模式和非公平模式。
 
 **这两个构造方法，都必须提供许可的数量，第二个构造方法可以指定是公平模式还是非公平模式，默认非公平模式。**
 
-[issue645补充内容](https://github.com/Snailclimb/JavaGuide/issues/645) ：Semaphore与CountDownLatch一样，也是共享锁的一种实现。它默认构造AQS的state为permits。当执行任务的线程数量超出permits,那么多余的线程将会被放入阻塞队列Park,并自旋判断state是否大于0。只有当state大于0的时候，阻塞的线程才能继续执行,此时先前执行任务的线程继续执行release方法，release方法使得state的变量会加1，那么自旋的线程便会判断成功。
+[issue645补充内容](https://github.com/lyuze/lyuze.github.io/issues/645) ：Semaphore与CountDownLatch一样，也是共享锁的一种实现。它默认构造AQS的state为permits。当执行任务的线程数量超出permits,那么多余的线程将会被放入阻塞队列Park,并自旋判断state是否大于0。只有当state大于0的时候，阻塞的线程才能继续执行,此时先前执行任务的线程继续执行release方法，release方法使得state的变量会加1，那么自旋的线程便会判断成功。
 如此，每次只有最多不超过permits数量的线程能自旋成功，便限制了执行任务线程的数量。
 
 由于篇幅问题，如果对 Semaphore 源码感兴趣的朋友可以看下这篇文章：https://juejin.im/post/5ae755366fb9a07ab508adc6
