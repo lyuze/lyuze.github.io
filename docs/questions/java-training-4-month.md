@@ -100,5 +100,5 @@
 
 ## 学习方法和学习路线推荐
 
-推荐查看我的这篇文章[《可能是最适合你的Java学习方法和路线推荐》](https://github.com/Snailclimb/JavaGuide/blob/master/docs/questions/java-learning-path-and-methods.md)，文中提到的学习路线以及方法是笔主根据个人学习经历总结改进后得出，我相信照着这条学习路线来你的学习效率会非常高。
+推荐查看我的这篇文章[《可能是最适合你的Java学习方法和路线推荐》](https://github.com/lyuze/lyuze.github.io/blob/master/docs/questions/java-learning-path-and-methods.md)，文中提到的学习路线以及方法是笔主根据个人学习经历总结改进后得出，我相信照着这条学习路线来你的学习效率会非常高。
 

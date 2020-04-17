@@ -357,5 +357,5 @@ Guava 提供的布隆过滤器的实现还是很不错的 *（想要详细了解
 
 1. 《Redis 深度历险》 - 钱文品/ 著 - [https://book.douban.com/subject/30386804/](https://book.douban.com/subject/30386804/)
 2. 5 分钟搞懂布隆过滤器，亿级数据过滤算法你值得拥有！ - [https://juejin.im/post/5de1e37c5188256e8e43adfc](https://juejin.im/post/5de1e37c5188256e8e43adfc)
-3. 【原创】不了解布隆过滤器？一文给你整的明明白白！ - [https://github.com/Snailclimb/JavaGuide/blob/master/docs/dataStructures-algorithms/data-structure/bloom-filter.md](https://github.com/Snailclimb/JavaGuide/blob/master/docs/dataStructures-algorithms/data-structure/bloom-filter.md)
+3. 【原创】不了解布隆过滤器？一文给你整的明明白白！ - [https://github.com/lyuze/lyuze.github.io/blob/master/docs/dataStructures-algorithms/data-structure/bloom-filter.md](https://github.com/lyuze/lyuze.github.io/blob/master/docs/dataStructures-algorithms/data-structure/bloom-filter.md)
 

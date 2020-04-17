@@ -86,7 +86,7 @@ Java 堆是垃圾收集器管理的主要区域，因此也被称作**GC 堆（G
 - **新生代 GC（Minor GC）**:指发生新生代的的垃圾收集动作，Minor GC 非常频繁，回收速度一般也比较快。
 - **老年代 GC（Major GC/Full GC）**:指发生在老年代的 GC，出现了 Major GC 经常会伴随至少一次的 Minor GC（并非绝对），Major GC 的速度一般会比 Minor GC 的慢 10 倍以上。
 
-> [issue#664 ](https://github.com/Snailclimb/JavaGuide/issues/664) :**[guang19](https://github.com/guang19)** 补充：个人在网上查阅相关资料的时候发现如题所说的观点。有的文章说 Full GC与Major GC一样是属于对老年代的GC，也有的文章说 Full GC 是对整个堆区的GC，所以这点需要各位同学自行分辨Full GC语义。见: [知乎讨论](https://www.zhihu.com/question/41922036)
+> [issue#664 ](https://github.com/lyuze/lyuze.github.io/issues/664) :**[guang19](https://github.com/guang19)** 补充：个人在网上查阅相关资料的时候发现如题所说的观点。有的文章说 Full GC与Major GC一样是属于对老年代的GC，也有的文章说 Full GC 是对整个堆区的GC，所以这点需要各位同学自行分辨Full GC语义。见: [知乎讨论](https://www.zhihu.com/question/41922036)
 
 **测试：**
 
@@ -152,7 +152,7 @@ public class GCTest {
 
 大部分情况，对象都会首先在 Eden 区域分配，在一次新生代垃圾回收后，如果对象还存活，则会进入 s0 或者 s1，并且对象的年龄还会加  1(Eden 区->Survivor 区后对象的初始年龄变为 1)，当它的年龄增加到一定程度（默认为 15 岁），就会被晋升到老年代中。对象晋升到老年代的年龄阈值，可以通过参数 `-XX:MaxTenuringThreshold` 来设置。
 
-> 修正（[issue552](https://github.com/Snailclimb/JavaGuide/issues/552)）：“Hotspot遍历所有对象时，按照年龄从小到大对其所占用的大小进行累积，当累积的某个年龄大小超过了survivor区的一半时，取这个年龄和MaxTenuringThreshold中更小的一个值，作为新的晋升年龄阈值”。
+> 修正（[issue552](https://github.com/lyuze/lyuze.github.io/issues/552)）：“Hotspot遍历所有对象时，按照年龄从小到大对其所占用的大小进行累积，当累积的某个年龄大小超过了survivor区的一半时，取这个年龄和MaxTenuringThreshold中更小的一个值，作为新的晋升年龄阈值”。
 >
 > **动态年龄计算的代码如下**
 >
@@ -173,7 +173,7 @@ public class GCTest {
 > 
 > ```
 >
-> 额外补充说明([issue672](https://github.com/Snailclimb/JavaGuide/issues/672))：**关于默认的晋升年龄是15，这个说法的来源大部分都是《深入理解Java虚拟机》这本书。**
+> 额外补充说明([issue672](https://github.com/lyuze/lyuze.github.io/issues/672))：**关于默认的晋升年龄是15，这个说法的来源大部分都是《深入理解Java虚拟机》这本书。**
 > 如果你去Oracle的官网阅读[相关的虚拟机参数](https://docs.oracle.com/javase/8/docs/technotes/tools/unix/java.html)，你会发现`-XX:MaxTenuringThreshold=threshold`这里有个说明
 >
 > **Sets the maximum tenuring threshold for use in adaptive GC sizing. The largest value is 15. The default value is 15 for the parallel (throughput) collector, and 6 for the CMS collector.默认晋升年龄并不都是15，这个是要区分垃圾收集器的，CMS就是6.**
